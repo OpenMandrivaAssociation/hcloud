@@ -17,7 +17,7 @@ BuildRequires:	golang
 Command line interface for interacting with Hetzner Cloud
 
 %prep
-%autosetup -p1 -n cli-%{version}
+%autosetup -p1 -a1 -n cli-%{version}
 
 %build
 for cmd in cmd/*; do
