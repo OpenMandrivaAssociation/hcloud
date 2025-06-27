@@ -2,9 +2,9 @@
 %undefine _debugsource_packages
 
 Name:		hcloud
-Version:	1.50.0
+Version:	1.51.0
 Release:	1
-Source0:	https://github.com/hetznercloud/cli/archive/refs/tags/v1.50.0.tar.gz
+Source0:	https://github.com/hetznercloud/cli/archive/refs/tags/v%{version}.tar.gz
 # go mod vendor
 Source1:	vendor.tar.xz
 Summary:	Command line interface for interacting with Hetzner Cloud
